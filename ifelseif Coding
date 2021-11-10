@@ -1,0 +1,42 @@
+package personal;
+
+import java.util.Scanner;
+
+public class QC7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String txt = ("Your gred is ");
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter your mark: ");
+		
+		int a = scan.nextInt();
+		//System.out.println(a);
+		
+		if( a >= 90 && a <= 100) {
+			System.out.println(txt +"A");
+			
+		}else if( a >=80 && a<90) {
+			System.out.println(txt +"B");
+			
+		}else if( a >=70 && a<80) {
+			System.out.println(txt +"C");
+			
+		}else if( a >=60 && a<70) {
+			System.out.println(txt +"D");
+			
+		}else if( a >=50 && a<60) {
+			System.out.println(txt +"E");
+			
+		}else if( a >=1 && a<50) {
+			System.out.println(txt +"F");
+			
+		} else {
+			System.out.println("The number you entered is not in the range");
+		}
+		
+		
+	}
+
+}
