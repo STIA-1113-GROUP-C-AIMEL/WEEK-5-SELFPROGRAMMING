@@ -1,0 +1,28 @@
+package selfProgramming;
+
+public class Exercise2 {
+	
+ 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	 double y=15.0;
+	 double x=25.0;
+	 double z=15.0;
+	 
+	 if (y!=x ) 
+		 System.out.println("Result : y not equal x");
+	 
+	 if (y==z) 
+		   System.out.println("Result: y equal to z");
+	 
+	 if (x > y)
+		 	System.out.println("Result: x is greater than y");
+	 
+	 if (y < x) {
+		 	System.out.println("Value x " + x + " value y " + y);
+		 	System.out.println("Result:y less than x ");
+	 	}
+	 
+	}
+
+}
