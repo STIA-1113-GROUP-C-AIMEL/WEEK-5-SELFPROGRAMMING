@@ -1,0 +1,18 @@
+package selfProgramming;
+
+public class Boolean {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	// to declare	
+	int year = 1582;
+	int month = 10;
+	int day = 15;
+	
+	// to print
+	System.out.println((year <= 1582) && (month <= 10) && (day <= 15)); // true
+	System.out.println((year <= 2000) && (month <= 3) && (day <= 10)); // false
+	System.out.println((year <= 1499) && (month <= 5) && (day >= 20)); // false
+	}
+
+}
