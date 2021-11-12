@@ -1,0 +1,52 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class Exercise4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// to declare
+		String name, gender, status;
+		int age ;
+		
+		// take input
+		
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println(" \tFun Run Day 2021 ");
+		System.out.println(" \tThis are open to all Malaysians Citizen ");
+		System.out.println(" \tTerms and Condition");
+		System.out.println(" \tAge must 18 years old");
+		
+		
+		
+		System.out.println("Enter your name :");
+		name = scan.next();
+		
+		System.out.println("Enter your gender :");
+		gender = scan.next();
+		
+		System.out.println("Enter your status :");
+		status = scan.next();
+		
+		System.out.println("Enter your age :");
+		age = scan.nextInt();
+		
+		
+		// print output
+		
+		System.out.println("My name is "+ name);
+		System.out.println("I am "+ gender);
+		System.out.println("I am "+ status);
+		
+		if (age>=18) 
+			System.out.println("You can join this program");
+		
+		if (age<=18)
+			System.out.println("You can't join this program");
+		
+	}
+
+}
