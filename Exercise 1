@@ -1,0 +1,22 @@
+package selfProgramming;
+
+public class exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// to declare
+		double d1 = 2.2+4.4;
+		double d2 = 6.6;
+		int d3 = 2+4;
+		int d4 = 6;
+		String s1 = "Aimel";
+		String s2 = "mel";
+		
+		
+		// to print
+		System.out.println(d1 == d2);
+		System.out.println(d3 == d4);
+		System.out.println(s1 == s2);
+	}
+
+}
